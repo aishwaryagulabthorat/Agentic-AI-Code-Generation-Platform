@@ -20,14 +20,13 @@ This system allows a user to:
 - Regenerate code iteratively
 - Download the final codebase as a ZIP
 
-All powered by an **agent-orchestrated AI pipeline**.
+**Agent Orchestration using AI pipeline**.
 
 ---
 
 ## Architecture Overview
 
 <img width="1024" height="1024" alt="Agentic AI" src="https://github.com/user-attachments/assets/f2973af6-888c-4e11-8a79-171106fcf217" />
-
 
 High-level flow:
 
@@ -38,7 +37,6 @@ User → Streamlit UI
 → Code Generator Agent
 → Feedback & Rewrite Loop
 → Final Code Output
-
 
 ---
 
@@ -123,5 +121,3 @@ pipeline/
 ├── rewriter.py      # Feedback / Rewrite Agent
 ├── orchestrator.py  # LangChain orchestration
 └── exporter.py      # ZIP export
-
-
