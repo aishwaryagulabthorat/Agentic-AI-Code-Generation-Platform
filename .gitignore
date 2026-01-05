@@ -1,0 +1,25 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env.*
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+
+# ZIP outputs
+*.zip
+agentic_output/
